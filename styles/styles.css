@@ -99,6 +99,7 @@ button {
   letter-spacing: 30%;
   text-transform: uppercase;
   display: block;
+  margin-bottom: 20px;
 }
 
 .cover {
@@ -165,6 +166,8 @@ button {
 
 .lots {
   margin-top: 180px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .lots_heading {
   margin-bottom: 27px;
