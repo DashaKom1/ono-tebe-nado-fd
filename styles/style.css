@@ -325,11 +325,11 @@ width: max-content;
 }
 
 .container_logo {
-  width: 240px; 
-  height: 240px; 
-  border-radius: 50%; 
-  background-color: #000; 
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
