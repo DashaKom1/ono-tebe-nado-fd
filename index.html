@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" /> 
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/style.css" /> 
 </head>
 <body>
 <header class="header">
     <nav class="header_menu">
         <ul class="header_links-list">
             <li class="header_links-list-item_no-bullit" style="list-style: none;">
-                <a class="header_link_active" link="#hero">главная</a>
+                <a class="header_link_active" href="#hero">главная</a>
             </li>
             <li class="header_links-list-item">
-                <a class="header_link" link="#lots">посмотреть лоты</a>
+                <a class="header_link" href="#lots">посмотреть лоты</a>
             </li>
             <li class="header_links-list-item">
-                <a class="header_link" link="#about">об аукционе</a>
+                <a class="header_link" href="#about">об аукционе</a>
             </li>
         </ul>
         
@@ -32,7 +32,7 @@
     </div>
     
     <div class="contact_header">
-        <a href="tel:+9 999 555 5555" >+9 999 555 5555</a>
+        <a href="tel:+99995555555" >+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <address>наб. Принсенграхт 263- 265, Амстердам</address>
     </div>
@@ -40,7 +40,7 @@
     
 </header>
 <main>
-    <section class="cover">
+    <section class="cover" id="hero">
         <div class="overlay"></div>
         <div class="cover_title">
              <h1>
@@ -60,7 +60,7 @@
 
 
 
-    <section class="lots">
+    <section class="lots" id="lots">
        
         <h1 class="lots_heading">Лоты</h1>
         <div class="lots_card-list">
@@ -98,7 +98,7 @@
     </section>
     
     
-   <section class="about">
+   <section class="about" id="about">
         <div class="about_column">
           <div class="container_logo">
             <img src="./images/logo-white.svg" style="width: 148px;" alt="">
@@ -125,7 +125,7 @@
 </main>
 <footer class="footer">
    <div class="contact_header_bottom">
-        <a href="tel:+9 999 555 5555" >+9 999 555 5555</a>
+        <a href="tel:+99995555555" >+9 999 555 5555</a>
         <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <address>наб. Принсенграхт 263- 265, Амстердам</address>
     </div> 
@@ -141,6 +141,7 @@
         <li class="footer_menu-list-item">
             <a class="footer_menu-link" href="">об аукционе</a>
         </li>
+        </ul>
     </nav>
         <div class="footer_social-list">
            <a class="footer_social-link" href=""> <img class="footer_social-icon" src="./images/yt.svg" alt=""></a> 
@@ -150,7 +151,7 @@
 
       
 
-      
+
     
 </footer>
 </body>

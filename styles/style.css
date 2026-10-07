@@ -50,7 +50,7 @@ button {
   list-style: circle;
 }
 
-.header_links-list{
+.header_links-list {
   display: flex;
   justify-content: row;
   font-size: 18px;
@@ -78,25 +78,28 @@ button {
   flex-direction: column;
   align-items: flex-start;
   max-width: 240px;
- 
   margin-left: auto;
 }
 
-.contact_header_bottom{
-    display: flex;
+.contact_header_bottom {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   max-width: 240px;
- 
   margin-right: auto;
 }
+
+
 
 .aligned-text {
   width: 100%;
   color: #FFFFFF;
+  font-size: 100px;
+  line-height: 115%;
+  letter-spacing: 30%;
+  text-transform: uppercase;
+  display: block;
 }
-
-
 
 .cover {
   height: auto;
@@ -108,19 +111,11 @@ button {
   z-index: 0;
 }
 
-.aligned-text {
-  font-size: 100px;
-  line-height: 115%;
-  letter-spacing: 30%;
-  text-transform: uppercase;
-  display: block;
-}
-
-.text_center{
+.text_center {
   text-align: center;
 }
 
-.text_right{
+.text_right {
   text-align: right;
 }
 
@@ -155,7 +150,7 @@ button {
   word-spacing: 80%;
 }
 
-.bet-button{
+.bet-button {
   background: none;
   color: #fff;
   border-width: 1px;
@@ -193,7 +188,7 @@ button {
   
 }
 
-.card_type_film{
+.card_type_film {
   
   background-image: url(../images/card-lot-01.jpg);
   background-size: cover;
@@ -203,7 +198,7 @@ button {
   z-index: 0;
 }
 
-.card_type_book{
+.card_type_book {
   
   background-image: url(../images/card-lot-02.jpg);
   background-size: cover;
@@ -213,7 +208,7 @@ button {
   z-index: 0;
 }
 
-.card_type_picture{
+.card_type_picture {
   
   background-image: url(../images/card-lot-03.jpg);
   background-size: cover;
@@ -266,12 +261,12 @@ button {
  
 }
 
-.about-description{
+.about-description {
   display: flex;
   flex-direction: column;
 }
 
-.about_logo{
+.about_logo {
   width: 240px;
   height: 240px;
 }
@@ -301,13 +296,6 @@ button {
   padding: 180px 50px 110px;
 }
 
-.contact_header {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 240px;
-  justify-self: start;
-}
 
 .footer_menu {
 text-align: center;
@@ -333,16 +321,15 @@ width: max-content;
   width: 48px;
   height: 48px;
   border-width: 1px;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
-.container_logo{
-
-    width: 240px; 
-    height: 240px; 
-    border-radius: 50%; 
-    background-color: #000; 
-    display: flex;
-     justify-content: center; 
-    align-items: center;
+.container_logo {
+  width: 240px; 
+  height: 240px; 
+  border-radius: 50%; 
+  background-color: #000; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
