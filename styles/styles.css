@@ -22,7 +22,7 @@
   margin: 14px;
 }
 
-.header_link_active{
+.header_link_active {
    text-decoration: none;
 }
 
@@ -125,7 +125,6 @@
   line-height: 100%;
   letter-spacing: 0%;
   text-transform: uppercase;
-
 }
 
 .lots_card-list-item {
@@ -163,7 +162,6 @@
   align-items: stretch;
   gap: 25px;
   margin-bottom: 30px;
-  
 }
 
 .card-link {
@@ -202,7 +200,6 @@
 .about_column {
   display: grid;
   grid-template-columns: 1fr 2fr;
-
 }
 
 .about-description {
@@ -232,7 +229,7 @@
   padding: 180px 50px 110px;
 }
 
-.footer_address{
+.footer_address {
   justify-self: flex-start;
 }
 
